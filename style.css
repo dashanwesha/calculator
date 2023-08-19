@@ -1,0 +1,56 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(197, 197, 197);
+    overflow: hidden;
+}
+
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid grey;
+    box-shadow:2px 0px 6px black ,-2px 0px 6px black , inset 2px 0px 6px black , inset -2px 0px 6px black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: yellow;
+    transition: all 0.3s ease;
+
+}
+
+.row{
+    margin: 8px 0px;
+}
+
+.row input{
+    width:291px;
+    font-size: 23px;
+  margin: 0;
+  padding: 10px 0px; 
+  border: 2px solid black;
+  border-radius: 5px;
+  border: 1px solid white;
+    box-shadow:2px 0px 6px yellow ,-2px 0px 6px yellow , inset 2px 0px 6px yellow , inset -2px 0px 6px yellow;
+
+    background-color: transparent;
+}
+
+.button:hover {
+    border: 1px solid white;
+    box-shadow:2px 0px 6px blue,-2px 0px 6px blue,inset 2px 0px 6px blue,inset -2px 0px 6px blue;
+
+    background-color: transparent;
+}
+.button:active{
+    background-color: rgba(0, 0, 255, 0.685);
+}
+h1{
+    width: 100vw;
+    margin: 20px -5vw;
+    text-align: center;
+}
